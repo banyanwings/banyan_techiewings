@@ -233,3 +233,9 @@ var x1 = setInterval(function() {
       if (!(arr.indexOf(kk)>=0))  
           e.preventDefault();  
   }); 
+
+$('.navbar .nav-item').on("click",function(){
+    $(".navbar-collapse").collapse('hide');
+});
+
+$('.nav .nav-item').unbind();
