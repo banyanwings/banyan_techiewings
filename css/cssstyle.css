@@ -10,7 +10,7 @@
 }
   
  .button, .front img{
-        background-color: #1c87c9;
+        background-color: #00FF00;
         border-radius: 60px;
         height: 50px;
         border: none;
@@ -26,19 +26,48 @@
       @keyframes glowing {
         0% {
           background-color: #2ba805;
-          box-shadow: 0 0 5px #2ba805;
+          box-shadow: 0 0 5px #00FF00;
         }
         50% {
-          background-color: #49e819;
-          box-shadow: 0 0 20px #49e819;
+          background-color: #2ba805;
+          box-shadow: 0 0 20px #00FF00;
         }
         100% {
           background-color: #2ba805;
+          box-shadow: 0 0 5px #00FF00;
+        }
+      }
+
+      .button1 {
+                animation: glowing1 1.5s linear infinite;
+                color: red;
+                font-weight: bold;
+                color: #2d38be;
+                transition: 0.5s;
+                border-radius: 20px 50px;
+                background-color: white;
+                font-family: Matura MT Script Capitals;
+            }
+
+      @keyframes glowing1 {
+        0% {
+          color: blue;
           box-shadow: 0 0 5px #2ba805;
+        }
+        50% {
+          color: red;
+          box-shadow: 0 0 20px blue;
+        }
+        100% {
+          color: #2ba805;
+          box-shadow: 0 0 5px red;
         }
       }
       .button, .front img{
         animation: glowing 1300ms infinite;
+      }
+      .button1{
+        animation: glowing1 1300ms infinite;
       }
 
             #hexagons {
@@ -92,6 +121,7 @@
           margin-bottom: 0%;
         }
       }
+
       @media( max-width: 767px) {
         #categories li {
           width: 48.75%;/* = (100 -2.5) / 2 */
@@ -110,7 +140,6 @@
           margin-bottom: 0%;
         }
         #categories li:nth-child(3n+4) {
-          clear: left;
           transform: translateX(0) rotate(-60deg) skewY(30deg);
         }
       }
@@ -232,12 +261,12 @@
         #hexagons {
           overflow: hidden;
           margin: 1em auto 0;
-          padding-top: 3em;
-          padding-bottom: 3em;
+          padding-top: 0em;
+          padding-bottom: 0em;
         }
         #categories {
-          width: auto;
-          padding: 0 12px;
+          width: 100px;
+          padding: 0 0px;
         }
         #hexagons .el-bg.bg-11 {
           top: 996px;
@@ -441,7 +470,7 @@
   color: black;
   padding: 20px;
   width: 100%;  
-  height: 85px;
+  height: 75px;
   border: none;
   outline: none;
   text-align: left;
@@ -471,7 +500,7 @@
   font-size: 16px;
   overflow:  auto;
   color: white;
-  height: 450px !important;
+  height: 470px !important;
 }
 
 .tabcontent h6{
@@ -522,9 +551,5 @@
   text-shadow: 1px 1px #33C1FF;
  }
 }
-
-
-
-
 
 
