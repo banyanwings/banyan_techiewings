@@ -544,12 +544,6 @@
  }
 }
 
-@media only screen and (max-width: 900px) {
- nav h3,p {
-  font-family: Algerian;
-  color:#000C66;
-  text-shadow: 1px 1px #33C1FF;
- }
-}
+
 
 
