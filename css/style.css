@@ -85,8 +85,7 @@
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 50px;
-    margin-bottom: 25px;
+   height: 80px;
 }
 
 
@@ -94,7 +93,8 @@
 .navbar .navbar-brand .toptitle{
     height: 0px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-bottom:20px;
 }
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
