@@ -93,6 +93,7 @@
 .navbar .navbar-brand .toptitle  {
     height: 0px;
     margin-left: 0px;
+    font-size:20px;
 }
 .navbar .navbar-brand,
 .navbar a.btn {
