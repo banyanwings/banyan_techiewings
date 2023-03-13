@@ -85,16 +85,16 @@
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 80px;
+    height: 50px;
+    margin-bottom: 25px;
 }
 
 
 @media (max-width: 991.98px) {
 .navbar .navbar-brand .toptitle{
     height: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 30px;
-    margin-bottom: 20px;
 }
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
