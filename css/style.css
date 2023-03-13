@@ -92,7 +92,7 @@
 @media (max-width: 991.98px) {
 .navbar .navbar-brand .toptitle  {
     height: 0px;
-    margin-left: 0px;
+    margin-top: 20px;
     font-size:20px;
 }
 .navbar .navbar-brand,
