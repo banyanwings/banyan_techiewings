@@ -526,7 +526,7 @@
 
 @media only screen and (max-width: 900px) {
  .coursecontentbtn1 {
-  margin-left: 300px !important;
+  margin-left: 250px !important;
  }
 }
 
@@ -539,6 +539,14 @@
 @media only screen and (max-width: 900px) {
  .homepgcontent {
   margin-bottom: 250px !important;
+ }
+}
+
+@media only screen and (max-width: 900px) {
+ .toptitle {
+  font-family: Algerian;
+  color:#000C66;
+  text-shadow: 1px 1px #33C1FF;
  }
 }
 
