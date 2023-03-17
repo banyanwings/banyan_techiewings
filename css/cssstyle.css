@@ -524,7 +524,7 @@
   border-left: 6px solid #F3BD00;
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
  .coursecontentbtn1 {
   margin-left: 200px !important;
   display:block;
@@ -532,26 +532,26 @@
  }
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
  #categories .flip-container {
   display: none;
  }
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
  .homepgcontent {
   margin-bottom: 250px !important;
  }
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
  nav h3 {
   color:#000C66;
   text-shadow: 1px 1px #33C1FF;
  }
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
  .getstartmob {
     display: block;
     padding-left: 60px;
