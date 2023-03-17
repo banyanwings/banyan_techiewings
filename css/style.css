@@ -87,6 +87,21 @@
 .navbar a.btn {
    height: 80px;
 }
+
+@media (max-width: 991.98px) {
+.navbar .navbar-brand .toptitle{
+    height: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 0px;
+    margin-bottom: 35px;
+}
+}
+
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
@@ -120,6 +135,26 @@
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+}
+
+@media only screen and (max-width: 900px){
+nav h3{
+    font-family: Algerian;
+    color: #000C66;
+    text-shadow: 1px 1px #33C1FF;
+    font-size: 20px;
+}
+.navbar .navbar-brand .tophead{
+    font-family: Algerian;
+    color: #000C66;
+    text-shadow: 1px 1px #33C1FF;
+    font-size: 15px;
+}
+.navbar .navbar-toggler{
+    width: 50px;
+    padding: 0px 0px;
+
+}
 }
 
 @media (min-width: 992px) {
@@ -348,4 +383,22 @@
 
 .copyright a:hover {
     color: var(--light);
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
 }
