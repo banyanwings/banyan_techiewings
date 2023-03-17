@@ -549,6 +549,21 @@
   color:#000C66;
   text-shadow: 1px 1px #33C1FF;
  }
+  nav p{
+    font-family: Algerian;
+    color: #000C66;
+    text-shadow: 1px 1px #33C1FF;
+    font-size: 15px;
+}
+nav .navbar-toggler{
+    width: 50px;
+    padding: 0px 0px;
+
+}
+  nav img{
+    height:50px;
+    width:60px;
+  }
 }
 
 @media (max-width: 900px) {
