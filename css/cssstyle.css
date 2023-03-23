@@ -544,6 +544,12 @@
  }
 }
 
+nav img{
+  width: 100px;
+  height:70px;
+  margin-left: 20px;
+}
+
 @media (max-width: 900px) {
  nav h3 {
    font-family: Algerian;
