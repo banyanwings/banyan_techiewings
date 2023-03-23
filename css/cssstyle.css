@@ -575,4 +575,20 @@ nav .navbar-toggler{
   }
 }
 
+@media (max-width: 900px) {
+  .tab button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  div .callback {
+    height: 450px;
+  }
+}
+
+.callback{
+  height: 380px;
+}
+
 
