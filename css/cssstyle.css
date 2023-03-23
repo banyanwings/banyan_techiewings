@@ -500,7 +500,7 @@
   font-size: 16px;
   overflow:  auto;
   color: white;
-  height: 470px !important;
+  height: 540px !important;
 }
 
 .tabcontent h6{
@@ -571,6 +571,7 @@ nav .navbar-toggler{
   nav img{
     height:50px;
     width:60px;
+    margin-bottom:20px;
   }
 }
 
@@ -589,7 +590,7 @@ nav .navbar-toggler{
 
 @media (max-width: 900px) {
   div .callback {
-    height: 450px;
+    height: 470px;
   }
 }
 
