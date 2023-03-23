@@ -104,7 +104,7 @@ document.getElementById("defaultOpen").click();
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 24, 2023").getTime();
+var countDownDate = new Date("Mar 31, 2023").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -133,7 +133,7 @@ var x = setInterval(function() {
 }, 1000);
 
 // Set the date we're counting down to
-var countDownDate1 = new Date("Mar 31, 2023").getTime();
+var countDownDate1 = new Date("Apr 08, 2023").getTime();
 
 // Update the count down every 1 second
 var y = setInterval(function() {
@@ -163,7 +163,7 @@ var y = setInterval(function() {
 
 
 // Set the date we're counting down to
-var countDownDate2 = new Date("Apr 08, 2023").getTime();
+var countDownDate2 = new Date("Apr 15, 2023").getTime();
 
 // Update the count down every 1 second
 var z = setInterval(function() {
@@ -193,7 +193,7 @@ var z = setInterval(function() {
 
 
 // Set the date we're counting down to
-var countDownDate3 = new Date("Apr 15, 2023").getTime();
+var countDownDate3 = new Date("Apr 21, 2023").getTime();
 
 // Update the count down every 1 second
 var x1 = setInterval(function() {
