@@ -104,7 +104,7 @@ document.getElementById("defaultOpen").click();
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 15, 2023").getTime();
+var countDownDate = new Date("Apr 28, 2023").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
